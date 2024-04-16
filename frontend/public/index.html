@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Private Contest</title>
+    <script>
+      // Function to fetch a random image URL from Unsplash
+      function fetchRandomImage() {
+        fetch('https://source.unsplash.com/random/64x64')
+          .then(response => {
+            // Set the href attribute of the favicon link tag
+            document.querySelector('link[rel="icon"]').href = response.url;
+          })
+          .catch(error => console.error(error));
+      }
+
+      // Call the function to fetch and set the random image on page load
+      window.onload = fetchRandomImage;
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
