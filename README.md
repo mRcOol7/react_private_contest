@@ -1,7 +1,7 @@
 # Private Contest Manager
 
 ## 📝 Overview
-This project is a web application that enables users to manage private contests. Users can register their private contests and view the details of their registered contests, including contest codes.
+The Private Contest Manager is a web application built using React.js for the frontend and Node.js with Express.js and MongoDB for the backend. It allows users to register their private contests and view their registered contests along with the contest codes.
 
 ## 🚀 Features
 - Register private contests with details such as prize pool, spots, first prizes, valid till date, platform, and contest code.
@@ -24,10 +24,10 @@ This project is a web application that enables users to manage private contests.
 
 ## 🚀 How to Use
 1. Clone the repository to your local machine.
-2. Navigate to the `private-contest-manager` directory.
+2. Navigate to the `react_private_contest` directory.
 3. Install dependencies for both frontend and backend:
     ```bash
-    cd private-contest-manager
+    cd react_private_contest
     cd frontend
     npm install
     cd ..
